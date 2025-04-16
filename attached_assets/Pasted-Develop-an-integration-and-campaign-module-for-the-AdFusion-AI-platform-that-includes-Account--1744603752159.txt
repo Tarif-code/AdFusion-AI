@@ -1,0 +1,45 @@
+Develop an integration and campaign module for the AdFusion AI platform that includes:
+
+    Account Connection & Security:
+
+        Implement OAuth 2.0 authentication for both Google Ads and Facebook Marketing.
+
+        Request necessary permissions for campaign management and performance reporting.
+
+        Securely store and manage access/refresh tokens with encryption and ensure all API calls use HTTPS.
+
+    Campaign Publishing:
+
+        Build functions to map our campaign settings (budget, targeting, creative assets) into the required formats for Google Ads API and Facebook Marketing API.
+
+        Implement API calls to create, update, and publish campaigns seamlessly.
+
+        Include basic error handling and feedback to users.
+
+    Performance Data Retrieval:
+
+        Develop a mechanism to fetch key performance metrics (CTR, impressions, conversions, CPC, etc.) either through periodic polling or via webhooks.
+
+        Aggregate and provide data in a simple, accessible format (e.g., for a dashboard).
+
+    Creative Generation and Customization:
+
+        Integrate AI engines for generating ad creatives: use NLP for text generation and text-to-image models (e.g., Stable Diffusion) for visual creatives.
+
+        Integrate AI-driven video ad generation (via text-to-video models) that allows users to create, preview, and edit video ad creatives.
+
+        Provide a user-friendly UI (or API endpoints) that lets users manually adjust creatives (fonts, colors, layout, etc.) and review the creative generation process for transparency.
+
+    Advanced Analytics:
+
+        Offer a basic analytics dashboard that displays real-time performance data.
+
+        Support features like A/B testing to compare creative variations and optimize campaign performance.
+
+    Modularity & Testing:
+
+        Structure the code using a modular approach to allow future integration with additional platforms and advanced features.
+
+        Write unit tests for key functions, including OAuth flows, campaign publishing, and error handling.
+
+        Provide clear documentation for setup, configuration (including API keys and secrets), and usage of the module.
